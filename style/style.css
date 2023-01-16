@@ -1,5 +1,8 @@
-/* font */
+/* ...font... */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;500&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+/*   Body Style */
 
 body {
     background: #FFFFFF;
@@ -12,13 +15,15 @@ body {
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: bisque;
+    width: 100%;
+}
 
 /* ......................
      menu bar style
 .............................. */
-.header{
-    background-color: ;
-}
+
 nav {
     display: flex;
     align-items: center;
@@ -93,15 +98,15 @@ nav>ul {
 }
 
 /* Quick-Feature style */
+
 .quick-feature {
     display: flex;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 50px;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     max-width: 1100px;
-    margin: 0px auto;
+    margin: 120px auto;
 
 }
 
@@ -125,6 +130,8 @@ nav>ul {
     margin-bottom: 24px;
 
 }
+
+/*    Love and Enjoy Feature style */
 
 .love-enjoy-feature {
     display: flex;
@@ -172,10 +179,11 @@ nav>ul {
     padding: 20px;
 
 }
-.feature-title{
+
+.feature-title {
     border-left: 5px solid #FF900E;
     padding-left: 10px;
-    
+
 }
 
 .love-enjoy-feature {
@@ -184,13 +192,16 @@ nav>ul {
     width: 100%;
     max-width: 1100px;
 
+
 }
 
 .love-enjoy-feature-img img {
     height: 100%;
     max-height: 774px;
+
 }
 
+/*  Love and Enjoy Feature style   */
 .button {
     width: 100%;
     max-width: 200px;
@@ -203,26 +214,34 @@ nav>ul {
     padding: 10px;
     margin-top: 30px;
     margin-left: 565px;
-    
-   
+
+
 }
-.some-fact{
-   margin-left: 130px;
-   margin-right: 700px;
-   margin-top: 90px;
+
+/*  Some Fact Style */
+
+.some-fact {
+    margin-left: 130px;
+    margin-right: 700px;
+    margin-top: 90px;
 }
-.fact-title{
+
+.fact-title {
     font-weight: 600;
-font-size: 35px;
-color: #131313;
-margin-bottom: 20px;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 20px;
 }
-.fact-description{
+
+.fact-description {
     color: #727272;
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 }
-.icon-box  {
+
+/* Icon Box Style */
+
+.icon-box {
     max-width: 1100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -230,142 +249,257 @@ font-size: 16px;
     justify-content: center;
     margin: 70px auto 0px;
     grid-column-gap: 70px;
-    
-  
+
+
 }
-.icon-box div:hover{
+
+.icon-box div:hover {
     transform: rotate(5deg);
 }
 
-.icon-box div{
+.icon-box div {
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
     padding: 30px 25px 40px 25px;
 }
-.icon-box img{
-width: 100%;
-   max-width: 47px;
-   height: 100%;
-max-height:47px;
-margin-bottom: 7px;
+
+.icon-box img {
+    width: 100%;
+    max-width: 47px;
+    height: 100%;
+    max-height: 47px;
+    margin-bottom: 7px;
 
 }
-.icon-box .number{
+
+.icon-box .number {
     font-weight: 600;
- font-size: 40px;
-color: #424242;
-margin-bottom: 7px;
+    font-size: 40px;
+    color: #424242;
+    margin-bottom: 7px;
 }
-.icon-box .icon-description{
+
+.icon-box .icon-description {
     font-weight: 600;
-font-size: 20px;
-color: #727272;
+    font-size: 20px;
+    color: #727272;
 }
-.sponsors-text{
-   text-align: center;
-   margin-top: 100px;
+
+.benefits-architect {
+    padding-left: 15px;
 }
-.sponsors-title{
+
+.benefits-architect>ul {
+    list-style:decimal-leading;
+    text-align: start;
+    margin: 0px 400px;
+
+
+}
+.benefits-title {
+    color: #131313;
     font-weight: 700;
-font-size: 45px;
-color: #131313;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    
 }
-.sponsors-description{
+
+.benefits>li {
+    margin-bottom: 10px;
+    text-align: start;
+    align-items: center;
+
+}
+
+.benefits-architect {
+    margin: 100px auto;
+    width: 100%;
+    max-width: 1100px;
+
+}
+
+
+
+.benefits>li {
+    margin-bottom: 10px;
+    align-items: center;
+    color: #727272;
+
+}
+
+/* Our Sponsors Style */
+.sponsors-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsors-description {
     font-size: 16px;
     color: #727272;
     width: 542px;
     text-align: center;
     align-items: center;
     margin: 21px auto;
-    
+
 }
-.sponsors-icon{
+
+/*   Sponsors Icon Style */
+.sponsors-icon {
     width: 100%;
     max-width: 1100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    
+
     justify-content: center;
     align-items: center;
     margin: 0px auto;
     mix-blend-mode: luminosity;
 }
-.sponsors-icon img{
+
+.sponsors-icon img {
     width: 100%;
     height: 100%;
     max-width: 165px;
-max-height: 50px;
-margin-top: 40px;
+    max-height: 50px;
+    margin-top: 40px;
 }
-.copyright{
+
+/* Copy Right Style */
+
+.copyright {
     max-width: 1100px;
     background: #FFF4E7;
-border-radius: 8px;
-height: 80px;
-text-align: center;
-align-items: center;
-margin: 130px auto;
-padding-top: 30px;
+    border-radius: 8px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    margin: 130px auto;
+    padding-top: 30px;
 }
-.copyright-text{
+
+.copyright-text {
     color: #424242;
     font-size: 20px;
 }
+
+/* Media Query */
+
+
 @media screen and (max-width: 576px) {
-    nav{
-        flex-direction: column;
+    
+    header{
+        width: 100%;
+       /* max-width: 410px; */
     }
     
-    nav>ul{
+    nav {
         flex-direction: column;
     }
-    
-    .brand-description{
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .brand-description {
         max-width: 0px;
-        }
-        .quick-feature-img{
-            margin-top: 50px;
-            grid-template-columns: repeat(1, 1fr);
-            grid-column-gap: 0px;
-           
-        }
-        .quick-feature-list{
-            margin-top: 50px;
-            padding: 10px;
-        }
-        .quick-feature{
-            flex-direction: column;
-        }
-        .love-enjoy-feature{
-            flex-direction: column;
-            
-        }
-        .love-enjoy-feature-img img{
-            max-height: 500px;
-           
-        }
-        .button{
-            margin-left: 100px;
-        }
-        .some-fact{
-            margin: 20px 0px 0px 10px;
-        }
-       .icon-box {
-        grid-template-columns: repeat(1, 1fr);
-        
-       }
-       .sponsors-description{
-        width: 400px;
-        
     }
-    .sponsors-icon{
+
+    .architects-bennar-photo img {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .quick-feature-img {
+        margin-top: 50px;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 120px;
-        
+        grid-column-gap: 0px;
 
     }
-    .copyright{
-        width: 400px;
+
+    .quick-feature-list {
+        margin-top: 50px;
+        padding: 10px;
     }
+
+    .quick-feature {
+        flex-direction: column;
+    }
+
+    .love-enjoy-feature {
+        flex-direction: column;
+
+    }
+
+    .love-enjoy-feature-text {
+        padding: 10px;
+    }
+
+    .love-enjoy-feature-img img {
+        height: 550px;
+        padding: 0px 25px 0px 0px;
+
+    }
+
+    .feature-description {
+        margin-left: 10px;
+    }
+
+    .button {
+        margin-left: 100px;
+    }
+
+    .some-fact {
+        margin: 20px 0px 0px 10px;
+    }
+
+    .icon-box {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+
+    }
+
+    .icon-box div {
+        margin-top: 20px;
+    }
+
+    .sponsors-description {
+        width: 400px;
+        padding: 0px 5px 0px 5px;
+
+    }
+
+    .sponsors-icon {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 120px;
+        width: 100%;
+
+
+    }
+
+    .copyright {
+        
+        margin-right: 5px;
+        margin-left: 5px;
+
+    }
+    .benefits-title{
+        width:100%;
+        text-align: start;
+    
+    }
+    .benefits-architect>ul{
+        margin: 0px;
+       list-style: none;
+    }
+}
+.hide{
+    display: none;
 }
